@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Auth;
 class AdminController extends Controller
 {
     public function index(){
-        return view('admin.login');
+        return view('admin.auth.login');
     }
 
     public function dashboard(){
